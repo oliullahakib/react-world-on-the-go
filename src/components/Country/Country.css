@@ -4,3 +4,10 @@
     border-radius: .5rem;
     
 }
+.country-visited{
+    background-color: aquamarine;
+    color: black;
+    border: 2px solid greenyellow;
+     padding: 1rem;
+    border-radius: .5rem;
+}

@@ -10,7 +10,6 @@ function App() {
 
   return (
     <>
-     
       <div>
     <Suspense fallback={"loding.."}>
       <Countries countryPomiss={countryPomiss}/>
