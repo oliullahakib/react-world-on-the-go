@@ -1,10 +1,11 @@
 import { useState } from 'react';
 import './Country.css'
-export default function Country({country}) {
+export default function Country({country,handelVisitedCountries}) {
     // console.log(country);
     const [visited,setVisited]= useState(false)
     const handelVisited =()=>{
         setVisited(!visited)
+        handelVisitedCountries(country)
     }
   return (
     <div className={visited?'country-visited':'country'}>
